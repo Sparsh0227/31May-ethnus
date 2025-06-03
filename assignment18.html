@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music World</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSziwUbTHhlDhIND4ARGZYcKRYB3Qm9-dlApA&s")
+          no-repeat center center/cover;
+        color: white;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      header h1 {
+        font-size: 40px;
+        font-family: "Georgia", serif;
+        color: #fff;
+        text-shadow: 2px 2px 8px #00f2ff;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+
+      nav button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 1px 1px 5px #000;
+      }
+
+      nav button:hover {
+        background-color: #555;
+      }
+
+      .section {
+        margin: 20px;
+        padding: 15px;
+        border: 2px dashed white;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      .section h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        border-left: 5px solid white;
+        padding-left: 10px;
+      }
+
+      .album-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        overflow-x: auto;
+      }
+
+      .album-container img {
+        height: 180px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        transition: transform 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Music World</h1>
+    </header>
+
+    <nav>
+      <button>HOME</button>
+      <button>ABOUT US</button>
+      <button>CATEGORY ⏷</button>
+      <button>PRODUCTION</button>
+      <button>GALLERY</button>
+      <button>CONTACT US</button>
+      <button>LOGIN</button>
+    </nav>
+
+    <div class="section">
+      <h2>→ Latest Album ...</h2>
+      <div class="album-container">
+        <img
+          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/futuristic-retro-wave-album-cover-design-template-83358d8cb0234e77af7a03bbb95ed1a4_screen.jpg?ts=1696260726"
+          alt="1"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYuxbrOwEnykJ6vsp2PhtFDHud1ukIJ5crA5nnY5LrU6094CdMpmTgsS3PcqxUj-LI4I&usqp=CAU"
+          alt="2"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lHWRP2Xf3_BvZojCHc61B6NemWe3JXw8OnYN5_gBrTd7E3IZlR9RQVytZGvJFDF54WM&usqp=CAU"
+          alt="3"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84t6MHEjleZXNZqaPn5U7dijrD_FfWg9MRr6n58VtJ9h_4cR0fkQfAL51_wVIjB8oBSk&usqp=CAU"
+          alt="4"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_a6XnDqyDS7u_CteJ2gxfe2f0tAmJnQ9alZz3FWuG9Vpeb_iIB4BPVyh3tDBtejbg3I&usqp=CAU"
+          alt="5"
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>→ TOP 5 Songs ...</h2>
+      <div class="album-container">
+        <img
+          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/futuristic-retro-wave-album-cover-design-template-83358d8cb0234e77af7a03bbb95ed1a4_screen.jpg?ts=1696260726"
+          alt="1"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYuxbrOwEnykJ6vsp2PhtFDHud1ukIJ5crA5nnY5LrU6094CdMpmTgsS3PcqxUj-LI4I&usqp=CAU"
+          alt="2"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lHWRP2Xf3_BvZojCHc61B6NemWe3JXw8OnYN5_gBrTd7E3IZlR9RQVytZGvJFDF54WM&usqp=CAU"
+          alt="3"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84t6MHEjleZXNZqaPn5U7dijrD_FfWg9MRr6n58VtJ9h_4cR0fkQfAL51_wVIjB8oBSk&usqp=CAU"
+          alt="4"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_a6XnDqyDS7u_CteJ2gxfe2f0tAmJnQ9alZz3FWuG9Vpeb_iIB4BPVyh3tDBtejbg3I&usqp=CAU"
+          alt="5"
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>→ TOP 5 Artist ...</h2>
+      <div class="album-container">
+        <img
+          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/futuristic-retro-wave-album-cover-design-template-83358d8cb0234e77af7a03bbb95ed1a4_screen.jpg?ts=1696260726"
+          alt="1"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYuxbrOwEnykJ6vsp2PhtFDHud1ukIJ5crA5nnY5LrU6094CdMpmTgsS3PcqxUj-LI4I&usqp=CAU"
+          alt="2"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lHWRP2Xf3_BvZojCHc61B6NemWe3JXw8OnYN5_gBrTd7E3IZlR9RQVytZGvJFDF54WM&usqp=CAU"
+          alt="3"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84t6MHEjleZXNZqaPn5U7dijrD_FfWg9MRr6n58VtJ9h_4cR0fkQfAL51_wVIjB8oBSk&usqp=CAU"
+          alt="4"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_a6XnDqyDS7u_CteJ2gxfe2f0tAmJnQ9alZz3FWuG9Vpeb_iIB4BPVyh3tDBtejbg3I&usqp=CAU"
+          alt="5"
+        />
+      </div>
+    </div>
+  </body>
+</html>

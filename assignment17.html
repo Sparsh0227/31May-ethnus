@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Dashboard</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+      }
+
+      .sidebar {
+        width: 250px;
+        background: linear-gradient(to bottom, #68db69, #a0e29f);
+        padding: 20px;
+        color: white;
+      }
+
+      .sidebar h2 {
+        margin-top: 0;
+      }
+
+      .sidebar a {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 10px;
+
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .sidebar a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .main {
+        flex: 1;
+        background-color: #f3f3f3;
+        padding: 30px;
+      }
+
+      .main h1 {
+        color: #3db13d;
+        text-align: center;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+        padding: 0 100px;
+      }
+
+      .card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .card h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #444;
+      }
+
+      .card p {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>School Dashboard</h2>
+      <a href="#">Dashboard</a>
+      <a href="#">Students</a>
+      <a href="#">Teachers</a>
+      <a href="#">Classes</a>
+      <a href="#">Exams</a>
+      <a href="#">Library</a>
+      <a href="#">Settings</a>
+    </div>
+
+    <div class="main">
+      <h1>Welcome to the School Dashboard</h1>
+      <div class="cards">
+        <div class="card">
+          <h2>Total Students</h2>
+          <p>500</p>
+        </div>
+        <div class="card">
+          <h2>Total Teachers</h2>
+          <p>50</p>
+        </div>
+        <div class="card">
+          <h2>Classes</h2>
+          <p>20</p>
+        </div>
+        <div class="card">
+          <h2>Upcoming Exams</h2>
+          <p>5</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

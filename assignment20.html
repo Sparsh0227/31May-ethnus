@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <style>
+      body {
+        background-color: #eee;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .gallery-container {
+        max-width: 1000px;
+        margin: auto;
+        border: 3px solid black;
+        background-color: #f8f8f8;
+        padding: 20px;
+      }
+
+      .gallery-title {
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        border-top: 4px solid orange;
+      }
+
+      .photos {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .photo-box {
+        width: 220px;
+        height: 200px;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .photo-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery-title">Photo Gallery</div>
+      <div class="photos">
+        <div class="photo-box">
+          <img
+            src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=2210&quality=70"
+            alt="Photo 1"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJrT7MI9fsrc6mWRBJBwhrf4vwTL7S5B8CzQ&s"
+            alt="Photo 2"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrVj4BHtXFKaekNNx-LVyoNIrWGYAFknabg&s"
+            alt="Photo 3"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9-OMhUfzcUDrx0qBcU8TRVezblkeqAWs3Fg&s"
+            alt="Photo 4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
